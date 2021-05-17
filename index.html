@@ -52,7 +52,7 @@
     var thousandDate = thousand.getFullYear() + '.' + (thousand.getMonth()+1) + '.' + thousand.getDate();
     var timeDiffTH = thousand.getTime() - now.getTime();
     var dayTH = Math.floor(timeDiffTH / (1000 * 60 * 60 * 24)+1);
-    $("#thousand-date").text(thousandDate)
+    $("#thousand-date").text(thousandDate);
     $("#thousand").text(dayTH + "일 남음");
     </script>
 </body>
